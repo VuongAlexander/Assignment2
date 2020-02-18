@@ -1,0 +1,19 @@
+The main difference between an int and Integer
+
+Integer is an object
+int is a reference
+
+Integer can call different built-in methods. Variables of Integer store references to Integer objects
+int stores integer value in memory
+
+int cannot cast a string value (even if it contains an integer) to an int variable
+Integer can cast by assigning string to object of Integer Type using the Integer(String) constructor
+
+you use int when declaring reference. int is not an actual integer. 
+Ex) int a is a reference where 'a' is pointing to Integer.
+
+Integer object can converts its value to other bases. For Ex) Integer can convert toBinaryString(), 
+toOctalString(), toHexString(), etc.
+int can not convert
+
+
